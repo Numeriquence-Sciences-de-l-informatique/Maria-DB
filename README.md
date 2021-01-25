@@ -60,3 +60,9 @@ II. Le langage SQL
 > SELECT * FROM <NameTable>;
   
   Permet de visualiser les enregistrements, attributs et valeurs d'une table présente dans DB.
+  
+> SELECT Attribut1,Attribut2 FROM <NameTable1>,<NameTable2> WHERE condition(attribut="...");
+  
+  Sélection simple dans une table
+  - **DISTINCT** juste après le `SELECT` permet la suppression des doublons lors de la sélection.
+  - **ORDER BY** 
