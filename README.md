@@ -1,6 +1,6 @@
 # Maria-DB
 
-I. Le modèle relationnel 
+## I. Le modèle relationnel
 Consiste à représenter les donnés dans des tables
 
 définitions :
