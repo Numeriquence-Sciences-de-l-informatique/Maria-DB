@@ -65,4 +65,21 @@ II. Le langage SQL
   
   Sélection simple dans une table
   - **DISTINCT** juste après le `SELECT` permet la suppression des doublons lors de la sélection.
-  - **ORDER BY** 
+  - **ORDER BY** à la fin d'une requête permet la classification selon un ordre croissant **ASC** et décroissant **DESC** (ex: ORDER BY <name> ASC)
+
+> SELECT Attribut AS <NewName>;
+  
+  Permet de renommer les  attributs de la table.
+  
+--- 
+
+- Dans le `SELECT`on peut obtenir des moyennes, des sommes, ...
+
+> - SUM = somme des valeurs de l'attribut spécifié
+- AVG = Moyenne des valeurs
+- MIN = Le minimum des valeurs
+- MAX = Le maximum des valeurs
+- COUNT = Le nombre d'enregistrement de l'attribut spécifié
+
+`DELETE FROM <NameTable> WHERE condition;`
+Permet de supprimer un enregistrement.
