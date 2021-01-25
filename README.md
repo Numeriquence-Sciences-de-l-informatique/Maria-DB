@@ -14,8 +14,8 @@ définitions :
 
 
 ## II. Le langage SQL
-> Les mots-clés SQL en majuscule et avec un `;`à la fin de chaque **requête**
-> Pour nommer des champs lors d'une jointure, on peut écrire le nom de la table puis le caractère `.` et sa var => `SHOW TABLES Jeu.IdGame from Jeu`
+*Les mots-clés SQL en majuscule et avec un `;`à la fin de chaque **requête**
+Pour nommer des champs lors d'une jointure, on peut écrire le nom de la table puis le caractère `.` et sa var => `SHOW TABLES Jeu.IdGame from Jeu`*
 
 > CREATE DATABASE <NameOfDB>;
   
